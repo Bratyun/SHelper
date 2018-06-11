@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vottakvot.nevskiy.knuckles.fragments.taskfragments.TaskCreatorFragmentOne">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/taskName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/taskNameEdit"
+            android:layout_alignBottom="@+id/taskNameEdit"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:text="Название:"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/taskNameEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/taskName"
+            android:layout_toRightOf="@+id/taskName"
+            android:hint="Тест:" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/taskURL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/taskURLEdit"
+            android:layout_alignBottom="@+id/taskURLEdit"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:text="URL:"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/taskURLEdit"
+            android:hint="www.test.com"
+            android:layout_toRightOf="@+id/taskURL"
+            android:layout_toEndOf="@id/taskURL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/taskStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/taskStatusButton"
+            android:layout_alignBottom="@+id/taskStatusButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:text="Статус: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/stateStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/taskStatus"
+            android:layout_alignBottom="@+id/taskStatus"
+            android:layout_toEndOf="@+id/taskStatus"
+            android:layout_toRightOf="@+id/taskStatus"
+            android:text="none"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/taskStatusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_toEndOf="@+id/stateStatus"
+            android:layout_toRightOf="@+id/stateStatus"
+            android:text="Проверить" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

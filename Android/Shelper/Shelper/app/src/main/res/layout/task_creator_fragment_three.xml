@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vottakvot.nevskiy.knuckles.fragments.taskfragments.TaskCreatorFragmentThree">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Тег" />
+        <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+            android:layout_weight="1"
+        android:text="Количество данных" />
+    </LinearLayout>
+    <ListView
+        android:layout_weight="1"
+        android:id="@+id/analGListView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/Base.Widget.AppCompat.ButtonBar">
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Добавить"/>
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Удалить"/>
+    </LinearLayout>
+</LinearLayout>

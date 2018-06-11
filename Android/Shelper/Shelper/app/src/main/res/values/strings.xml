@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Shelper</string>
+    <string name="title_home">Tasks</string>
+    <string name="title_dashboard">Update</string>
+    <string name="title_notifications">Settings</string>
+    <string name="lots_of_text">SettingsSettingsSettingsSettings</string>
+    <string-array name="position_options">
+        <item>Авто</item>
+        <item>Внцтри</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
